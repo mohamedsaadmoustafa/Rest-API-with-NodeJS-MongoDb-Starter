@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/server-local.js",
   "scripts": {
-    "start": "node --trace-warnings src/server-local.js",
+    "start": "nodemon src/server-local.js",
     "dev": "nodemon src/server-local.js"
   },
   "author": "m9",
