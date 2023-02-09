@@ -38,3 +38,36 @@ POST or UPDATE JSON example
 }
 
 ```
+###  File Structure
+├── package.json
+├── package-lock.json
+├── README.md
+├── request.http
+└── src
+    ├── config
+    │   └── database.config.js
+    ├── controllers
+    │   └── items.controller.js
+    ├── db
+    │   └── connect.js
+    ├── dto
+    │   └── item.dto.js
+    ├── lib
+    │   ├── error.handler.js
+    │   ├── errors.js
+    │   └── logger.js
+    ├── middleware
+    │   └── validations.js
+    ├── models
+    │   └── item.models.js
+    ├── routes
+    │   ├── item.routes.js
+    │   └── routes.js
+    ├── server.js
+    ├── server-local.js
+    └── utils
+        ├── pagination.js
+        └── rateLimit.js
+
+10 directories, 19 files
+```
