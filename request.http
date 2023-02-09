@@ -1,0 +1,29 @@
+GET http://localhost:3000/api/item
+###
+
+POST http://localhost:3000/api/item
+content-type: application/json
+
+{
+    "name" : "new name",
+    "description" : "new description"
+}
+###
+
+GET http://localhost:3000/api/item/random
+###
+
+GET http://localhost:3000/api/item/PUT_ID_HERE
+###
+
+PATCH http://localhost:3000/api/item/PUT_ID_HERE
+content-type: application/json
+
+{
+    "name" : "updated name",
+    "description" : "updated description"
+}
+###
+
+DELETE http://localhost:3000/api/item/PUT_ID_HERE
+###
