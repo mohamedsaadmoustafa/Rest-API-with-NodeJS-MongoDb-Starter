@@ -23,12 +23,12 @@ npm run dev
 Use request.http file to test routes
 
 ```
-GET http://localhost:3000/item
-POST http://localhost:3000/item
-GET http://localhost:3000/item/random
-GET http://localhost:3000/item/:id
-UPDATE http://localhost:3000/item/:id
-DELETE http://localhost:3000/item/:id
+GET http://localhost:3000/api/item
+POST http://localhost:3000/api/item
+GET http://localhost:3000/api/item/random
+GET http://localhost:3000/api/item/:id
+UPDATE http://localhost:3000/api/item/:id
+DELETE http://localhost:3000/api/item/:id
 
 
 POST or UPDATE JSON example
