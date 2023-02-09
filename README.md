@@ -3,8 +3,8 @@
 
 This is a straightforward express microservice. Clients have the ability to obtain all items, retrieve one item by id, delete and update an item by id. Clients can also publish new items and obtain a randomly selected item.
 
-Rate limit: Limit each IP to 50 requests per windowMs.
-Pagination: When 'GET' all of the items, put them into pages.
+* Rate limit: Limit each IP to 50 requests per windowMs.
+* Pagination: When 'GET' all of the items, put them into pages.
 
 
 ### Configure environment variables
