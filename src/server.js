@@ -1,9 +1,8 @@
-//import config from 'config';
 const express = require('express');
 const morgan = require('morgan');
 const serverless = require('serverless-http');
 // local modules
-const connect = require('./db/connect');
+const connectDB = require('./db/connect.db');
 const errorHandler = require('./lib/error.handler');
 const logger = require('./lib/logger');
 const routes = require('./routes/routes');
@@ -14,7 +13,7 @@ const httpReqLogFormat = ':method :url :status :res[content-length] - :response-
 const httpReqLogger = morgan(httpReqLogFormat, { stream: logger.stream });
 
 // connect to database
-connect();
+//connectDB();
 
 // middleware
 app.use(limiter)
