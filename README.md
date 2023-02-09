@@ -1,6 +1,5 @@
-### Rest API with NodeJS/MongoDb Starter
+# Rest API with NodeJS/MongoDb Starter
 
-Rest API development in Javascript using NodeJS, ExpressJS, and MongoDb.
 
 This is a straightforward express microservice. Clients have the ability to obtain all items, retrieve one item by id, delete and update an item by id. Clients can also publish new items and obtain a randomly selected item.
 
