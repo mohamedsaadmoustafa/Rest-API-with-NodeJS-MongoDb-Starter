@@ -7,6 +7,11 @@ This is a straightforward express microservice. Clients have the ability to obta
 * Pagination: When 'GET' all of the items, put them into pages.
 
 
+## Deployed App:
+
+[![rest app](https://img.shields.io/badge/render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)](https://rest-api-with-nodejs-mongodb-starter.onrender.com)
+
+
 ### Configure environment variables
 
 * Create a .env file by copying .env.sample.
