@@ -9,7 +9,7 @@ This is a straightforward express microservice. Clients have the ability to obta
 
 ## Deployed App:
 
-[![rest app](https://img.shields.io/badge/render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)]([https://rest-api-with-nodejs-mongodb-starter.onrender.com](https://rest-api-with-nodejs-mongodb-starter.onrender.com/api/item))
+[![rest app](https://img.shields.io/badge/render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)](https://rest-api-with-nodejs-mongodb-starter.onrender.com](https://rest-api-with-nodejs-mongodb-starter.onrender.com/api/item)
 
 
 ### Configure environment variables
